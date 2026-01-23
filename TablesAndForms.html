@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Tables and forms assignment</title>
+    </head>
+
+    <body>
+        <div>
+            <form>
+                <h1>Pizza Ordering Form</h1>
+
+                <h2>Contact Information</h2>
+                    <label for="Name">Name:</label>     <input type="text" name="Name" id="Name" required><br>
+                    <label for="Phone">Phone:</label>   <input type="tel" name="Phone" id="Phone" required><br>
+                    <label for="Email">Email:</label>   <input type="email" name="Email" id="Email" required><br>
+
+                <h2>Select Pizza Size</h2>
+                    <label for="PizzaSize">Pizza Size:</label>
+                    <select name="PizzaSize" id="PizzaSize" required>
+                        <option value="">--Select Size--</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Large">Large</option>
+                        <option value="XLarge">XLarge</option>
+                    </select>
+                
+                <h2>Select Sauce</h2>
+                    <input type="radio" name="Marinara" id="Marinara">  <label for="Marinara">Marinara</label><br>
+                    <input type="radio" name="Ranch" id="Ranch">        <label for="Ranch">Ranch</label><br>
+                    <input type="radio" name="NoSauce" id="NoSauce">    <label for="NoSauce">No Sauce</label><br>
+                
+                <h2>Select Toppings</h2>
+                    <input type="checkbox" name="Pepperoni" id="Pepperoni"><label for="Pepperoni">Pepperoni</label>
+                    <input type="checkbox" name="Sausage" id="Sausage"><label for="Sausage">Sausage</label><br>
+                    <input type="checkbox" name="Mushroom" id="Mushroom"><label for="Mushroom">Mushroom</label>
+                    <input type="checkbox" name="Pineapple" id="Pineapple"><label for="Pineapple">Pineapple</label><br>
+                    <input type="checkbox" name="Peppers" id="Peppers"><label for="Peppers">Peppers</label>
+                    <input type="checkbox" name="Onions" id="Onions"><label for="Onions">Onions</label><br>
+
+                <h2>Additional Instructions</h2>
+                    <textarea name="Instructions" id="Instructions" placeholder="Add instructions"></textarea><br>
+                    <input type="submit" value="Submit">
+            </form>
+        </div>
+        
+        <br>
+        <br>
+        <br>
+
+        <div>
+            <table border="1">
+                <caption>List of My Favorite Games</caption>
+                <thead>
+                    <tr>
+                        <th>Developer</th>
+                        <th>Title</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">Fromsoftware</td>
+                        <td>Bloodborne</td>
+                        <td>2015</td>
+                    </tr>
+                    <tr>
+                        <td>Sekiro: Shadows Die Twice</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>Elden Ring</td>
+                        <td>2022</td>
+                    </tr>
+                    <tr>
+                        <td>Mojang</td>
+                        <td>Minecraft</td>
+                        <td>2011</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Count: 4</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    
+    </body>
+</html>
