@@ -1,0 +1,54 @@
+#jumpMenu{
+    position: Fixed;
+    width: 10em;
+    height: 100%;
+    background-color: cadetblue;
+    text-align: Center;
+    line-height: 2em;
+}
+
+#container{
+    margin: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#thanks{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+}
+
+article{
+    padding: 0.25em;
+    margin: 1em;
+    border: 0.25em solid black;
+    width: 20em;
+    min-height: 20em;
+}
+
+body {
+    margin: 0;
+    display: flow-root;
+    position: relative;
+}
+
+header{
+    position: sticky;
+    top: 0%;
+    text-align: center;
+    background-color: crimson;
+}
+
+main{
+    margin-left: 10em;
+}
+
+main h1{
+    margin: 1%;
+}
+
+header p {
+    margin-top: 0;
+}
