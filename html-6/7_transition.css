@@ -1,0 +1,46 @@
+article p:first-of-type::first-letter{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+a[href*="google.com"]::after {
+    width: 32px;
+    height: 32px;
+    background-image: url("arrow.png");
+    content: "";
+    display: inline-block;
+    background-size: contain;
+}
+
+article{
+    color: gray;
+    transition: color 2s
+}
+
+article:hover{
+    color: black;
+}
+
+nav button:hover{
+    background-color: yellow;
+}
+
+#jumpMenu {
+    display: none;
+    margin: 0;
+    list-style: none;
+}
+
+#recentArticles:hover + #jumpMenu, #jumpMenu:hover{
+    z-index: 100;
+    display: block;
+    padding: 5px;
+    position: absolute;
+    background: white;
+    border: 1px solid black;
+}
+
+#jumpMenu li a:hover {
+    color: white;
+    background-color: blue;
+}
