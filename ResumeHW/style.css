@@ -1,0 +1,56 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    background-color: whitesmoke;
+}
+
+h1{
+    font-size: 2.5em;
+    color: black;
+}
+
+h2{
+    font-size: 2em;
+    color: cadetblue;
+    border-bottom: 0.2em solid cadetblue;
+}
+
+h3{
+    font-size: 1.5em;
+    margin-bottom: 0.25em;
+}
+
+h4{
+    margin: 0.5em;
+}
+
+p, li{
+    font-size: larger;
+}
+
+@media (min-width: 1920px){
+    .Projects div, .Rel-Work-Exp div{
+        display: flex;
+    }
+
+    .Projects section, .Rel-Work-Exp section{
+        border-left: 0.2em solid cadetblue;
+        max-width: 30em;
+        padding: 1em;
+    }
+
+    .Skills ul, section ul{
+        list-style: none;
+        display: flex;
+        padding-left: 0;
+    }
+
+    .Skills li, section li{
+        font-size: larger;
+        padding: 1em;
+        margin: 1.1em;
+        border-left: 0.2em solid cadetblue;
+        border-bottom: 0.2em solid cadetblue;
+    }
+
+}

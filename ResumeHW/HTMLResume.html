@@ -2,85 +2,102 @@
 <html lang="en">
     <head>
         <title>HTML Resume Assignemnt (Resume)</title>
+        <Link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Gabriel Alvarado</h1>
-        <article>
-            <h1>Contact Information</h1>
-                <p>
-                    Email: ga962611@ucf.edu <br>
-                    LinkedIn: <a rel="stylesheet" href="https://www.linkedin.com/">Gabriel Alvarado</a>
-                </p>
-        </article>
-        <article>
-            <h1>Professional objective statement</h1>
-                <p>
-                    Results-driven computer science student with a drive for innovation, efficiency, and security. 
-                    Skilled in optimizing systems and ensuring seamless operation. 
-                    Adept at collaborating with cross-functional teams to deliver projects on time.
-                </p>
-        </article>
-        <article>
-            <h1>Education</h1>
-                <p>
-                    Bachelor in Information Technology (in progress) - University of Central Florida <br>
-                    Associates in Arts - Seminole State College 2020
-                </p>
-        </article>
-        <article>
-            <h1>Relevant Work Experience</h1>
-            <section>
-                <h2>Live Digital Radio Management System Intern Office of Naval Research Internship</h2>
-                    <h3>May 2023 - July 2023</h3>
-                        <ul>
-                            <li>Collaborated with team members to build, repair, and maintain next-generation digital radios</li>
-                            <li>Developed an automated inventory management system in Excel</li>
-                            <li>Received, delivered, and organized various hardware</li>
-                            <li>Programmed and updated radio software</li>
-                        </ul>
-            </section>
-            <section>
-                <h2>Product Line Management Intern Office of Naval Research Internship</h2>
-                    <h3>May 2023 - July 2023</h3>
-                        <ul>
-                            <li>Worked on securing and managing confidential military contracts</li>
-                            <li>Participated in organizing the funding for live fire range training facilities</li>
-                        </ul>
-            </section>
-            <section>
-                <h2>Product Line Management Intern Office of Naval Research Internship</h2>
-                    <h3>May 2021 - July 2021</h3>
-                        <ul>
-                            <li>Granted a secret level security clearance</li>
-                            <li>Worked with a team to manage the deployment cycle of training systems</li>
-                            <li>Conducted cost analysis on confidential financial reports</li>
-                            <li>Designed a logo and team branding for a large department</li>
-                        </ul>
-            </section>
-        </article>
-        <article>
-            <h1>Projects</h1>
-            <section>
-                <h2><a rel="stylesheet" href="VMProject.html">Managing a Virtual Network of Windows Systems</a></h2>
-                <h3>October 2025 - December 2025</h3>
-                <p>I worked with virtual computer software to create a network of computers that could intereact with one another.</p>
-            </section>
-            <section>
-                <h2><a rel="stylesheet" href="SQLProject.html">Setting up an SQL Database</a></h2>
-                <h3>August 2025 - August 2025</h3>
-                <p>I worked with MySQL to set up and populate an SQL database.</p>
-            </section>
-        </article>
-        <article>
-            <h1>Skills</h1>
-            <ul>
-                <li>Microsoft Office</li>
-                <li>Microsoft Excel</li>
-                <li>Time Management</li>
-                <li>Python Programming</li>
-                <li>Teamwork</li>
-                <li>Group Coordination</li>
-            </ul>
-        </article>
+        <div class="Main-Container">
+            <header>
+                <h1>Gabriel Alvarado</h1>
+                <article class="Contact-Info">
+                    <p>
+                        Email: ga962611@ucf.edu <br>
+                        LinkedIn: <a href="https://www.linkedin.com/">Gabriel Alvarado</a>
+                    </p>
+                </article>
+            </header>
+
+            <main>
+                <article class="Prof-Obj-Stmnt">
+                    <h2>Professional objective statement</h2>
+                        <p>
+                            Results-driven computer science student with a drive for innovation, efficiency, and security. 
+                            Skilled in optimizing systems and ensuring seamless operation. 
+                            Adept at collaborating with cross-functional teams to deliver projects on time.
+                        </p>
+                </article>
+
+                <article class="Education">
+                    <h2>Education</h2>
+                        <p>
+                            <strong>Bachelor in Information Technology</strong> (in progress) - University of Central Florida <br>
+                            <strong>Associates in Arts</strong> - Seminole State College 2020
+                        </p>
+                </article>
+
+                <article class="Rel-Work-Exp">
+                    <h2>Relevant Work Experience</h2>
+                    <div>
+                    <section>
+                        <h3>Live Digital Radio Management System Intern</h3>
+                            <h4>Office of Naval Research | May 2023 - July 2023</h4>
+                            <ul>
+                                <li>Collaborated with team members to build, repair, and maintain next-generation digital radios</li>
+                                <li>Developed an automated inventory management system in Excel</li>
+                                <li>Received, delivered, and organized various hardware</li>
+                                <li>Programmed and updated radio software</li>
+                            </ul>
+                    </section>
+                    
+                    <section>
+                        <h3>Product Line Management Intern</h3>
+                            <h4>Office of Naval Research | May 2023 - July 2023</h4>
+                            <ul>
+                                <li>Worked on securing and managing confidential military contracts</li>
+                                <li>Participated in organizing the funding for live fire range training facilities</li>
+                            </ul>
+                    </section>
+
+                    <section>
+                        <h3>Product Line Management Intern</h3>
+                            <h4>Office of Naval Research | May 2021 - July 2021</h4>
+                            <ul>
+                                <li>Granted a secret level security clearance</li>
+                                <li>Worked with a team to manage the deployment cycle of training systems</li>
+                                <li>Conducted cost analysis on confidential financial reports</li>
+                                <li>Designed a logo and team branding for a large department</li>
+                            </ul>
+                    </section>
+                    </div>
+                </article>
+
+                <article class="Projects">
+                    <h2>Projects</h2>
+                    <div>
+                    <section>
+                        <h3><a href="VMProject.html">Managing a Virtual Network of Windows Systems</a></h3>
+                            <h4>October 2025 - December 2025</h4>
+                            <p>I worked with virtual computer software to create a network of computers that could intereact with one another.</p>
+                    </section>
+
+                    <section>
+                        <h3><a href="SQLProject.html">Setting up an SQL Database</a></h3>
+                            <h4>August 2025 - August 2025</h4>
+                            <p>I worked with MySQL to set up and populate an SQL database.</p>
+                    </section>
+                    </div>
+                </article>
+            </main>
+
+            <aside class="Skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Microsoft Office</li>
+                    <li>Microsoft Excel</li>
+                    <li>Time Management</li>
+                    <li>Python Programming</li>
+                    <li>Teamwork</li>
+                    <li>Group Coordination</li>
+                </ul>
+            </aside>
     </body>
 </html>
