@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Pokemon Team Builder </title>
+        <link rel="stylesheet" href="style.css">
+		<script src="Script.js"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        </style>
+    </head>
+    <body>
+        <main>
+            <div id="GameboyShell">
+                <div id="GameboyScreen">
+                    <search id="SearchBar">
+                        <input id="PokemonSearched" name="PokemonSearched" type="text" placeholder="Search for a pokemon">
+                        <button onclick="FetchPokemon()" id="FindPokemonButton" name="FindPokemonButton" type="button">Find</button>
+                    </search>
+                    
+                    <div id="MiddleArea">
+                        <div id="PokemonFetched">
+                            
+                        </div>
+
+                        <div id="PokemonTeam">
+                            <div id="TeamHeader">
+                                <h2>Your Team</h2>
+                            </div>
+                            <div id="TeamPokemon">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="OptionsBar">
+                        <button onclick="PlayCry()" id="PlayCryButton" name="PlayCryButton" type="button">Cry</button>
+                        <button onclick="AddPokemonToTeam()" id="AddPokemonButton" name="AddPokemonButton" type="button">Add to team!</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
